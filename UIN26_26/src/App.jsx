@@ -4,6 +4,8 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+import myPhoto from './assets/tirilphoto.jpg';
+
 
 
 
@@ -17,7 +19,13 @@ function App() {
       </header>
       
       <section>
-        <img src="BILDE HER"></img>
+        <img src={myPhoto} alt="Bilde av Tiril"></img>
+      </section> 
+
+      <section>
+        <p>E-post:</p>
+        <a href="Tirillg@hiof.no">Tirillg@hiof.no</a>
+        <p>Bachlerstudiet er Digitale medier og design</p>
       </section>
     </>
   )
