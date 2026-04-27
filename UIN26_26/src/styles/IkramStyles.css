@@ -1,49 +1,45 @@
 .ikram-card {
   background-color: #213722;
   color: #e4d0a9;
-  padding: 48px;
-  max-width: 950px;
-  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
 }
 
+/* Tittel */
 .ikram-card h2 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 24px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
   color: #e4d0a9;
 }
 
+/* Fjern layout-flex som ødelegger */
 .ikram-content {
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 6px;
+  display: block;
+  padding: 0;
 }
 
+/* Bildet – samme størrelse som de andre */
 .ikram-card img {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
+  border-radius: 50%;
   border: 2px solid #e4d0a9;
-  border-radius: 200px;
-  padding: 4px;
+  margin-bottom: 1rem;
 }
 
-.ikram-text {
-  max-width: 600px;
+/* Tekst */
+.ikram-card p {
+  font-size: 14px;
+  margin: 0.3rem 0;
 }
 
-.ikram-text p {
-  line-height: 1.5;
-  margin-top: 0;
+a {
+  color: #e4d0a9;
+  text-decoration: none;
 }
 
-.ikram-text h2 {
-  font-size: 1.5rem;
-  margin-top: 40px;
-}
-
-.ikram-text ul {
-  padding-left: 24px;
+a:hover {
+  text-decoration: underline;
 }

@@ -6,7 +6,7 @@ export default function Assignments() {
 
   useEffect(() => {
     client
-      client.fetch(`*[_type == "assignment"] | order(title asc){_id, title, description}`)
+      .fetch(`*[_type == "assignment"] | order(title asc){_id, title, description}`)
       .then((res) => {
         console.log("DATA:", res);
         setData(res);

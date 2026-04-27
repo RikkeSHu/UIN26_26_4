@@ -3,19 +3,16 @@ import rikkeBilde from "../assets/pic/rikkemus.jpg";
 
 export default function ProfileRikke() {
   return (
-    <article className="rikke-profile">
+    <article className="rikke">
       <figure>
-        <img src={rikkeBilde} alt="Illustrasjon av Rikke" />
-        <figcaption>Rikke</figcaption>
+        <img src={rikkeBilde} alt="Portrett av Rikke" />
       </figure>
 
       <h2>Rikke</h2>
 
-      <p>
-        <a href="mailto:rikkehusby@icloud.com">
-          rikkehusby@icloud.com
-        </a>
-      </p>
+      <a href="mailto:rikkehusby@icloud.com">
+        rikkehusby@icloud.com
+      </a>
 
       <p>Bachelor i Digitale medier og Design</p>
     </article>
