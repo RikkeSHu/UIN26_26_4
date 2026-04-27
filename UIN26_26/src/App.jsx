@@ -15,18 +15,22 @@ function App() {
   return (
     <>
       <header>
-        <h1>Tirils side</h1>
+        <h1>Tiril</h1>
       </header>
       
       <section>
-        <img src={myPhoto} alt="Bilde av Tiril"></img>
-      </section> 
-
-      <section>
+        <img src={myPhoto} alt="Bilde av Tiril"></img>'
+        
         <p>E-post:</p>
         <a href="Tirillg@hiof.no">Tirillg@hiof.no</a>
+        
         <p>Bachlerstudiet er Digitale medier og design</p>
       </section>
+
+    <section>
+      <h3>Arbeidskravene</h3>
+    </section>
+
     </>
   )
 }
